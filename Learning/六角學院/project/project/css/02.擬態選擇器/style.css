@@ -1,0 +1,18 @@
+h1{
+    color: blue;
+}
+p{
+    color: red;
+}
+a{
+    color: black;
+}
+/* 增加滑鼠滑過去的互動效果：連結文字顏色變紅色、字體大小變大至20px */
+/* a:hover 是擬態選擇器，可變更效果來觀看 */
+a:hover{
+    color: red;
+    font-size: 20px;
+}
+a:active{
+    color: green;
+}
